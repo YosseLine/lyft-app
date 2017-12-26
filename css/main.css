@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #4f0064;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.01em;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+}
+.grad70 {
+    background: linear-gradient( rgb(98,1,100)5%, rgb(195,8,128));
+}
+.vh100 {
+	height: 100vh;
+}
+/*Agregando efectos al background*/
+#bgCanvas{
+    width:100%;
+    height:100%;
+    z-index: 10;
+    top:0;
+    left:0;
+    position: absolute;
+}
+.container-flex-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
+}
+.logo{
+  text-align: center;
+}
+
+/*Estilos para HOME*/
+.background-home{
+  width: 100%;
+  height: -webkit-fill-available;
+  background-image: url('../assets/images/2014.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slide{
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}
+button{
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}
