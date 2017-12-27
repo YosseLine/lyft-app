@@ -1,8 +1,9 @@
 $(document).ready(function() {
-  $('#name,#email').keydown(function() {
+  $('#name,#email').keyup(function() {
     var name = $('#name').val();
     var email = $('#email').val();
-    for (var i = 0; i < 1; i++) {
+    var checkbox = $('#checkbox');
+    for (var i = 0; i < email.length; i++) {
       if (name.length !== '' && email.length !== '') {
         $('#btn-send').removeAttr('disabled')
       } else {
