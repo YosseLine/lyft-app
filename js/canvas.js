@@ -19,7 +19,6 @@ function loop() {
 }
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-
   ctx.globalCompositeOperation = 'lighter';
   for (var i = 0; i < particles.length; i++) {
     var p = particles[i];

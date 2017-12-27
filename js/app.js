@@ -1,6 +1,7 @@
 /*  Loader*/
-/* $(document).ready(function() {
+$(document).ready(function() {
+  $('.dropdown-menu').dropdown();
   setTimeout(function() {
-    window.location.href = 'views/home.html';
+    window.location.href = 'view/home.html';
   }, 3000);
-});*/
+});

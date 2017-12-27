@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lyft-Home</title>
+    <title>Verify Phone</title>
     <link rel="icon" type="image/png" href="../assets/images/logo-pink.png">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -14,18 +14,28 @@
     <link rel="stylesheet" type="text/css" href="../css/main.css">
   </head>
   <body>
-    <main id="home" class="background-home container-flex-column vh100 padd-2em">
-        <div class="container-fluid">
-         <div class="row">
-           <div class="col-xs-12" align="center"><img src="../assets/images/lyftlyfe_blanco.png" class="img-responsive"></div>
-         </div>
-         <div class="row">
-           <div align="center">
-           <div class="col-xs-6"><a id="log-in" type="button" class="btn style-button-principal">LOG IN</a></div>
-           <div class="col-xs-6"><a id="sign-up" type="button" class="btn style-button-principal" href="sign-up.html">SIGN UP</a></div>
-         </div>
+    <main id="verify-phone" class="container-flex-column grad70 vh100">
+      <div class="container-fluid">
+       <div class="row">
+        <div class="col-xs-12">
+         <form class="styles-form">
+           <a class="back-white pull-left"><span class="glyphicon glyphicon-chevron-left margin" aria-hidden="true"></span><span>BACK</span></a>
+           <h3>Verify phone number</h3>
+           <p>Join now for free ride credit</p>
+           <hr>
+           <div class="input-group">
+             <p class="input-group-addon style-button-secundary-input" id="basic-addon1">LAB</p>
+             <input type="number" class="form-control" placeholder="3 Digits" aria-describedby="basic-addon1">
+           </div>
+           <div>
+             <!--Aquí iría el número...-->
+           </div>
+           <button type="button" class="btn style-button-secundary">Resend code</button>
+           <button type="button" class="btn btn-lg btn-block style-button-principal" disabled="disabled">NEXT</button>
+         </form>
         </div>
        </div>
+      </div>
     </main>
 
     <script type="text/javascript" src="../vendors/jQuery/jquery-3.2.1.min.js"></script>
