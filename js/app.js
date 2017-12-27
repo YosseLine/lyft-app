@@ -2,6 +2,6 @@
 $(document).ready(function() {
   $('.dropdown-menu').dropdown();
   setTimeout(function() {
-    window.location.href = 'view/home.html';
+    window.location.href = 'views/home.html';
   }, 3000);
 });

@@ -19,19 +19,19 @@
        <div class="row">
         <div class="col-xs-12">
          <form class="styles-form">
-           <a class="back-white pull-left"><span class="glyphicon glyphicon-chevron-left margin" aria-hidden="true"></span><span>BACK</span></a>
+           <a class="back-white pull-left" href="sign-up.html"><span class="glyphicon glyphicon-chevron-left margin" aria-hidden="true"></span><span>BACK</span></a>
            <h3>Verify phone number</h3>
            <p>Join now for free ride credit</p>
            <hr>
            <div class="input-group">
              <p class="input-group-addon style-button-secundary-input" id="basic-addon1">LAB</p>
-             <input type="number" class="form-control" placeholder="3 Digits" aria-describedby="basic-addon1">
+             <input id="input-verify-phone" type="number" class="form-control" placeholder="3 Digits" aria-describedby="basic-addon1">
            </div>
            <div>
              <!--Aquí iría el número...-->
            </div>
-           <button type="button" class="btn style-button-secundary">Resend code</button>
-           <button type="button" class="btn btn-lg btn-block style-button-principal" disabled="disabled">NEXT</button>
+           <button id="btn-res-code" type="button" class="btn style-button-secundary">Resend code</button>
+           <a id="verify-pho-next" type="button" class="btn btn-lg btn-block style-button-principal" disabled="disabled">NEXT</a>
          </form>
         </div>
        </div>
@@ -40,6 +40,6 @@
 
     <script type="text/javascript" src="../vendors/jQuery/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!--<script type="text/javascript" src="../js/app.js"></script>-->
+    <script type="text/javascript" src="../js/sign-up.js"></script>
   </body>
 </html>
