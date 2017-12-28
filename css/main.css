@@ -38,6 +38,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+  align-items: center;
 }
 .logo{
   text-align: center;
@@ -116,4 +117,17 @@ ul.dropdown-menu img{
 #welcome .box-welcome img{
   width: 20%;
   display: inline-block;
+}
+
+@media (min-width: 768px) {
+ .style-button-principal{
+   font-size: 15px;
+   padding: 15px 25px
+  }
+}
+@media (min-width: 1200px) {
+ .background-home{
+   background-position: center bottom;
+ }
+  }
 }
