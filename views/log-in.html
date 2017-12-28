@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lyft Log In</title>
+    <link rel="icon" type="image/png" href="../assets/images/logo-pink.png">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Mi css -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+  </head>
+  <body>
+    <main id="log-in" class="container-flex-column grad70 vh100">
+      <div class="container-fluid">
+       <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-3">
+         <form class="styles-form">
+           <a class="back-white pull-left" href="home.html"><span class="glyphicon glyphicon-chevron-left margin" aria-hidden="true"></span><span>BACK</span></a>
+           <h3>¿ARE YOU?</h3>
+           <p>Join now for free ride credit</p>
+           <hr>
+           <div class="input-group">
+            <p class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></p>
+            <input id="name-login" type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+           </div>
+           <div class="input-group">
+             <p class="input-group-addon b" id="basic-addon1"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></p>
+             <input id="email-login" type="text" class="form-control" placeholder="Mail" aria-describedby="basic-addon1">
+           </div>
+           <button id="btn-login" type="button" class="btn btn-lg btn-block style-button-principal" disabled="disabled">LOG IN</button>
+          </form>
+        </div>
+       </div>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="../vendors/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/log-in.js"></script>
+  </body>
+</html>

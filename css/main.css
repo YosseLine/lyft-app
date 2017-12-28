@@ -118,7 +118,14 @@ ul.dropdown-menu img{
   width: 20%;
   display: inline-block;
 }
-
+/*Estilos para LOG IN*/
+#log-in div.input-group{
+  margin-bottom: 2vh;
+}
+/*Estilos para HELLO*/
+#hello img{
+  margin-top: 5vh;
+}
 @media (min-width: 768px) {
  .style-button-principal{
    font-size: 15px;
