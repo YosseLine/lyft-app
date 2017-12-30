@@ -15,7 +15,7 @@
 
 ***
 
-## Datos del reto opcional:
+## Datos del reto:
 
 - la web-app deberá cumplir a detalle los pasos necesarios para que un usuario pueda registrarse. Opcionalmente, dicha web-app debería tener una versión desktop.
 
@@ -59,7 +59,7 @@
 
 - Todas las vistas cuentan con un botón 'BACK' que te redirecciona a la vista anterior.
 
-- Han sido añadidos dos botones llamados 'Back to home', donde el usuario, al terminar su inscripción, puede acceder fácilmente a la vista de inicio.
+- Han sido añadidos dos botones. El primero llamado 'Back to home'; donde el usuario, al terminar su inscripción, puede acceder fácilmente a la vista de inicio. Y el segundo obtiene el nombre 'SIGN OFF', donde el usuario podrá cerrar sesión y dirigirse a la vista principal, si así lo desea.
 
 ***
 
