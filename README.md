@@ -25,21 +25,19 @@
 
 * Vista splash con duración de 2 a 5 segundos que redirecciona a la vista de inicio:
 
-![Lyft](assets/images/splash.png)
-
 * La vista de inicio cuenta con dos botones, en esta ocasión seguiremos el flujo de SING UP:
+
+![Lyft](assets/images/splash.png)
 
 ![Lyft](assets/images/inicio.png)
 
 * En la siguiente vista tenemos un formulario donde nuestro usuario puede escoger el país y debe ingresar su número de teléfono. El botón de NEXT debe estar deshabilitado hasta que se ingrese un número de 10 dígitos:
 
-![Lyft](assets/images/ingrese-numero.png)
+![Lyft](assets/images/ingreso-numero.png)
 
 * Una vez ingresado el número de teléfono se habilita el botón y al dar click debe enviar una alerta con un código generado aleatoriamente (LAB-000) y redireccionar a la siguiente vista:
 
 ![Lyft](assets/images/generacion-codigo.png)
-
-![Lyft](assets/images/codigo.png)
 
 * En esta vista se debe ingresar el código dado anteriormente y una vez hecho esto se habilita el botón que redirecciona a nuestro usuario a la vista donde ingresa sus datos:
 
