@@ -125,16 +125,27 @@ ul.dropdown-menu img{
 /*Estilos para HELLO*/
 #hello img{
   margin-top: 5vh;
+  width: 100%;
+}
+.btn-back-home{
+  margin-top: 4vh;
 }
 @media (min-width: 768px) {
  .style-button-principal{
    font-size: 15px;
-   padding: 15px 25px
+   padding: 15px 25px;
   }
+  a.btn-back-home{
+    font-size: 15px;
+    padding: 10px 1px;
+  }
+}
+#welcome a.btn-back-home{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
 }
 @media (min-width: 1200px) {
  .background-home{
    background-position: center bottom;
  }
-  }
 }

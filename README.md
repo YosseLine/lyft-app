@@ -29,8 +29,6 @@
 
 ![Lyft](assets/images/splash.png)
 
-![Lyft](assets/images/inicio.png)
-
 * En la siguiente vista tenemos un formulario donde nuestro usuario puede escoger el país y debe ingresar su número de teléfono. El botón de NEXT debe estar deshabilitado hasta que se ingrese un número de 10 dígitos:
 
 ![Lyft](assets/images/ingreso-numero.png)
