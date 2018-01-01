@@ -61,6 +61,8 @@
 
 - Han sido añadidos dos botones. El primero llamado 'Back to home'; donde el usuario, al terminar su inscripción, puede acceder fácilmente a la vista de inicio. Y el segundo obtiene el nombre 'SIGN OFF', donde el usuario podrá cerrar sesión y dirigirse a la vista principal, si así lo desea.
 
+- El color de la barra de navegador que se observará al abrir la web 'Lyft' desde un móvil, fue cambiado al color representativo de la página web, para una mejor experiencia.
+
 ***
 
 ## Herramientas usadas:
