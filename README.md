@@ -63,7 +63,7 @@
 
 - El color de la barra de navegador que se observará al abrir la web 'Lyft' desde un móvil, fue cambiado al color representativo de la página web, para una mejor experiencia.
 
--El estilo del cursor fue modifcado para una mejor interacción con la web-app.
+- El estilo del cursor fue modifcado para una mejor interacción con la web-app.
 
 ***
 
