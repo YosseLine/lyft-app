@@ -14,6 +14,7 @@ body{
   user-select: none;
   display: flex;
   color: #FFF;
+  cursor: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/i010711f8fe2674de/version/1362614531/image.gif),auto;
 }
 .grad70 {
     background: linear-gradient( rgb(99,1,100)5%, rgb(199,8,128));
@@ -62,10 +63,12 @@ h3, h1{
   color: #FFF;
   font-weight: bold;
   background-color: rgb(168,0,119);
+  cursor: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/i010711f8fe2674de/version/1362614531/image.gif),auto;
 }
 .style-button-principal:hover{
   background-color: rgba(168,0,119,0.6);
   outline: none;
+  cursor: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/i010711f8fe2674de/version/1362614531/image.gif),auto;
 }
 #home div.container-fluid div.row:first-child{
   margin-bottom: 10vh;
@@ -89,6 +92,7 @@ a.back-white{
   font-weight: bold;
   color: #4f0064;
   outline: none;
+  cursor: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/i010711f8fe2674de/version/1362614531/image.gif),auto;
 }
 #sign-up .style-button-secundary{
   margin-bottom: 2vh;
@@ -127,8 +131,12 @@ ul.dropdown-menu img{
   margin-top: 5vh;
   width: 100%;
 }
+a.back-white{
+  cursor: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/i010711f8fe2674de/version/1362614531/image.gif),auto;
+}
 .btn-back-home{
   margin-top: 4vh;
+  cursor: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/i010711f8fe2674de/version/1362614531/image.gif),auto;
 }
 @media (min-width: 768px) {
  .style-button-principal{
