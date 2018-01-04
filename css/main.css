@@ -81,6 +81,9 @@ h3, h1{
   padding: 3vh 5vw;
   text-align: center;
 }
+#sign-up select.form-control, #sign-up input.form-control{
+  margin-bottom: 2vh;
+}
 a.back-white{
   color: #FFF;
   text-decoration: none;
@@ -147,8 +150,5 @@ a.back-white{
 @media (min-width: 1200px) {
  .background-home{
    background-position: center bottom;
- }
- #sign-up select.form-control, #sign-up input.form-control{
-   width: auto;
  }
 }
