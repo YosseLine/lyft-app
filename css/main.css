@@ -83,6 +83,7 @@ h3, h1{
 }
 #sign-up select.form-control, #sign-up input.form-control{
   margin-bottom: 2vh;
+  cursor: url(https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/i010711f8fe2674de/version/1362614531/image.gif),auto;
 }
 a.back-white{
   color: #FFF;
