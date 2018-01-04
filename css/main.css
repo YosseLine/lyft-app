@@ -98,16 +98,8 @@ a.back-white{
   margin-bottom: 2vh;
   outline: none;
 }
-ul.dropdown-menu{
-  flex-direction: column;
-  align-items: center;
-  min-width: 65px;
-}
-ul.dropdown-menu img{
-  display: inline-block;
-  width: 50px;
-  margin: 0px 4px 6px 6px;
-}
+
+/*Estilos para VERIFY PHONE*/
 #verify-phone .style-button-secundary{
   outline: none;
   margin-top: 2vh;
@@ -155,5 +147,8 @@ a.back-white{
 @media (min-width: 1200px) {
  .background-home{
    background-position: center bottom;
+ }
+ #sign-up select.form-control, #sign-up input.form-control{
+   width: auto;
  }
 }

@@ -25,20 +25,15 @@
            <h3 class="text-center">Sign Up</h3>
            <p>Join now for free ride credit</p>
            <hr>
-           <div class="input-group">
-            <div class="input-group-btn">
-             <button id="dLabel" type="button" class="btn dropdown-toggle style-button-secundary-input" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-labelledby="dLabel">País<span class="caret"></span></button>
-               <ul class="dropdown-menu"  aria-labelledby="dLabel">
-                 <li><img src="../assets/images/colombia.png" class="img-responsive" data-target=1></li>
-                 <li><img src="../assets/images/mexico.png" class="img-responsive" data-target=2></li>
-                 <li><img src="../assets/images/peru.png" class="img-responsive" data-target=3></li>
-                 <li><img src="../assets/images/united-states.png" class="img-responsive" data-target=4></li>
-               </ul>
-             </div>
-           <!-- /btn-group -->
-           <input id="input-phone" type="number" class="form-control" aria-label="..." placeholder="Enter your phone number">
-         </div>
-         <!-- /input-group -->
+           <div class="form-group col-xs-12">
+             <select id="country" class="form-control col-xs-6">
+               <option value="peru">Perú</option>
+               <option value="colombia">Colombia</option>
+               <option value="mexico">México</option>
+               <option value="eeuu">United States</option>
+             </select>
+             <input id="input-phone" type="number" class="form-control input-phone col-xs-6" placeholder="Enter your phone number">
+          </div>
          <p class="margin-top-btm">We'll send a text to verify you phone</p>
          <button id="btn-gen-code" type="button" class="btn style-button-secundary" disabled="disabled">Generate Code</button>
          <a id="sign-up-next" type="button" class="btn btn-lg btn-block style-button-principal" disabled="disabled">NEXT</a>
